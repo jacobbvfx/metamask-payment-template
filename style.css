@@ -1,0 +1,77 @@
+body {
+    margin: 0;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    background-color: #161616;
+    color: whitesmoke;
+}
+
+@-webkit-keyframes animatebottom {
+    from {
+        bottom: -50px;
+        opacity: 0
+    }
+
+    to {
+        bottom: 0px;
+        opacity: 1
+    }
+}
+
+@keyframes animatebottom {
+    from {
+        bottom: -50px;
+        opacity: 0
+    }
+
+    to {
+        bottom: 0;
+        opacity: 1
+    }
+}
+
+.btext {
+    color: whitesmoke;
+    position: absolute;
+    text-align: center;
+    top: 40%;
+    width: 100%;
+    line-height: 1.4em;
+    -webkit-animation-name: animatebottom;
+    -webkit-animation-duration: 2s;
+    animation-name: animatebottom;
+    animation-duration: 2s;
+}
+
+.btneth {
+    text-decoration: none;
+    padding: 10px 15px;
+    line-height: 4em;
+    transition: 1s;
+    white-space: nowrap;
+}
+
+div {
+    -webkit-animation-name: animatebottom;
+    -webkit-animation-duration: 2s;
+    animation-name: animatebottom;
+    animation-duration: 2s;
+}
+
+a {
+    text-decoration: none;
+    color: #3ebcff;
+    transition: 0.7s;
+    display: inline;
+    font-size: 24px;
+    -webkit-animation-name: animatebottom;
+    -webkit-animation-duration: 2s;
+    animation-name: animatebottom;
+    animation-duration: 2s;
+}
+
+a:hover {
+    text-decoration: none;
+    font-size: 28px;
+    color: #3ebcff80;
+    transition: 0.7s;
+}
